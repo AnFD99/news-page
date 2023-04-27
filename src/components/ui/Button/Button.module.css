@@ -1,0 +1,39 @@
+@import '../../../assets/styles/_vars';
+
+.button {
+	display: block;
+	width: max-content;
+	padding: 15px 45px;
+	font-weight: 700;
+	color: var(--color-white);
+	border: none;
+
+	background-color: var(--color-orange);
+	box-shadow: 0px 2px 15px var(--color-orange);
+	border-radius: 20px;
+
+	cursor: pointer;
+
+	transition: var(--transition);
+}
+
+.button:hover {
+	box-shadow: none;
+}
+
+.button:disabled {
+	background-color: var(--color-text-secondary);
+	box-shadow: none;
+	cursor: default;
+}
+
+.refresh_button {
+	background-color: var(--color-primary);
+
+	box-shadow: 0px 2px 15px var(--color-primary-dark);
+
+	position: fixed;
+	right: 2%;
+	bottom: 3%;
+	z-index: 1000;
+}

@@ -1,0 +1,23 @@
+@import '../../../../assets/styles/_vars';
+
+.sidebar__container {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 15px;
+	background-color: var(--color-primary-dark);
+	color: var(--color-white);
+
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.logo {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}

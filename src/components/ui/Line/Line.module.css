@@ -1,0 +1,9 @@
+@import '../../../assets/styles/_vars';
+
+.line {
+	background-color: var(--color-divider);
+	height: 1px;
+	width: 100%;
+	margin: 40px 0;
+	opacity: .7;
+}

@@ -1,0 +1,26 @@
+:root {
+	--color-bg: #FEFFFF;
+	--color-bg-variant: #e1f8f6;
+	--color-primary: #3AAFA9;
+	--color-primary-dark: #2B7A78;
+	/* --color-primary-dark: #127471; */
+	--color-white: #fff;
+	--color-orange: #E85A4F;
+	--color-text-primary: #212121;
+	--color-text-secondary: #8E8D8A;
+	--color-divider: #C5C6C7;
+
+	--transition: all .2s linear;
+}
+
+/* #EDC7B7 - #EEE2DC - #BAB2B5 - #123C69 - #AC3B61 */
+
+/* #EAE7DC - #D8C3A5 - #8E8D8A - #E98074 - #E85A4F */
+
+/* #17252A - #2B7A78 - #3AAFA9 - #DEF2F1 - #FEFFFF */
+
+/* #B23850 - #3B8BEB - #E7E3D4 - #C4DBF6 - #8590AA */
+
+/* #00887A - #FFCCBC - #FFFFFF - #D3E3FC - #77A6F7 */
+
+/* #212121 */

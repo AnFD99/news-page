@@ -1,0 +1,87 @@
+@import '../../../../assets/styles/_vars';
+
+.comments__container {
+	width: 100%;
+}
+
+.not_found {
+	display: block;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 25px;
+	color: var(--color-orange);
+}
+
+.title {
+	display: block;
+	margin: 0 auto 30px;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.comment__container {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 0 20px;
+	border-radius: 20px;
+	background-color: var(--color-bg-variant);
+	position: relative;
+}
+
+.comment__container:first-child {
+	padding: 20px;
+	margin: 15px 0;
+}
+
+.open_next {
+	cursor: pointer;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	color: var(--color-primary-dark);
+	font-size: 14px;
+
+	cursor: pointer;
+
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 200;
+}
+
+.button:hover {
+	color: var(--color-orange);
+}
+
+.icon {
+	font-size: 25px;
+}
+
+.icon.disabled {
+	color: var(--color-text-primary);
+}
+
+.disabled {
+	cursor: default;
+}
+
+.comment__info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-left: 50px;
+}
+
+.name,
+.date {
+	font-size: 14px;
+	font-weight: 300;
+	color: var(--color-text-secondary);
+}
+
+.nested_comment {
+	margin-left: 40px;
+}

@@ -1,0 +1,42 @@
+@import '../../../assets/styles/_vars';
+
+.home__container {
+	display: flex;
+	max-width: 80%;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 100;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	width: max-content;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 30px;
+	cursor: default;
+}
+
+.link {
+	width: max-content;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+
+	font-size: 18px;
+
+	transition: var(--transition);
+}
+
+.link:hover {
+	color: var(--color-primary);
+}
+
+.icon {
+	margin-left: 10px;
+}
