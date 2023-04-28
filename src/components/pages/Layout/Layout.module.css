@@ -7,9 +7,17 @@
 }
 
 .main__content {
+	display: block;
 	width: 80%;
 	padding: 20px;
 	margin-left: 20%;
 
 	position: relative;
+}
+
+@media (max-width: 768px) {
+	.main__content {
+		width: 100%;
+		margin-left: 0;
+	}
 }

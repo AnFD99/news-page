@@ -1,14 +1,3 @@
-/* :root {
-	--color1: #DBEEEE;
-	--color2: #B6DEDE;
-	--color3: #92CDCD;
-	--color4: #6DBDBD;
-	--color5: #49ACAC;
-	--color6: #249C9C;
-	--color7: #008B8B;
-	--color8: #027575;
-} */
-
 .container {
 	display: flex;
 	flex-direction: column;
@@ -140,4 +129,12 @@
 	text-align: center;
 	margin: 30px 15px;
 	color: #bbb;
+}
+
+@media (max-width: 768px) {
+	.container {
+		flex-direction: row;
+		align-items: center;
+		transform: scale(70%);
+	}
 }

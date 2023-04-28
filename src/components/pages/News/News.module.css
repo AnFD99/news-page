@@ -60,9 +60,26 @@
 .item__info {
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
+	column-gap: 5px;
 	justify-content: space-between;
 	margin-top: 20px;
 	font-size: 14px;
 	font-weight: 300;
 	color: var(--color-text-secondary);
 }
+
+@media (max-width: 768px) {
+	.news__container{
+		padding: 20px 0;
+	}
+	.item__container {
+		width: 100%;
+	}
+	.item__title {
+		overflow-wrap: break-word;
+		width: 80%;
+	}
+}
+
+@media (max-width: 640px) {}
