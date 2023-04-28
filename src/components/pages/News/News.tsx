@@ -10,7 +10,7 @@ const News: FC = () => {
    const { data, isLoading, refetch, isRefetching, error } = useNews()
 
    return (
-      <div className={styles.news__container}>
+      <section className={styles.news__container}>
          <h2 className={styles.title}>News</h2>
          <Line />
          {isLoading ? (
@@ -30,7 +30,7 @@ const News: FC = () => {
          >
             {isRefetching ? 'Loading...' : 'Refresh'}
          </RefreshButton>
-      </div>
+      </section>
    )
 }
 

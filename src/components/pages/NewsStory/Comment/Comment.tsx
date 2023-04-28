@@ -8,7 +8,7 @@ const Comment: FC<{ comments: number[] }> = ({ comments }) => {
    const { data, isLoading, error } = useComment(comments)
 
    return (
-      <div className={styles.comments__container}>
+      <section className={styles.comments__container}>
          {isLoading ? (
             <Loader />
          ) : data?.length === 0 || !data || error ? (
@@ -25,7 +25,7 @@ const Comment: FC<{ comments: number[] }> = ({ comments }) => {
                </ul>
             </>
          )}
-      </div>
+      </section>
    )
 }
 

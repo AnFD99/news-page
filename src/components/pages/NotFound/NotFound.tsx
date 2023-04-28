@@ -3,7 +3,7 @@ import styles from './NotFound.module.css'
 
 const NotFound: FC = () => {
    return (
-      <div className={styles.container}>
+      <section className={styles.container}>
          <h1 className={styles.title}>404 Error Page Not Found</h1>
          <section className={styles.errorContainer}>
             <span className={styles.four}>
@@ -16,7 +16,7 @@ const NotFound: FC = () => {
                <span className={styles.screenReaderText}>4</span>
             </span>
          </section>
-      </div>
+      </section>
    )
 }
 

@@ -24,7 +24,7 @@ const NewsStory: FC = () => {
          ) : !data || error ? (
             <NotFound />
          ) : (
-            <div className={styles.story__container}>
+            <section className={styles.story__container}>
                <div className={styles.buttons}>
                   <div onClick={() => navigate(-1)} className={styles.button}>
                      <BiChevronLeft className={styles.icon} />
@@ -64,7 +64,7 @@ const NewsStory: FC = () => {
                   {isRefetching ? 'Loading...' : 'Refresh'}
                </RefreshButton>
                <Comment comments={data?.kids || []} />
-            </div>
+            </section>
          )}
       </>
    )
