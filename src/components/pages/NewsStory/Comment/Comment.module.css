@@ -41,7 +41,7 @@
 .button {
 	display: flex;
 	align-items: center;
-	color: var(--color-primary-dark);
+	color: var(--color-orange);
 	font-size: 14px;
 
 	cursor: pointer;
@@ -50,10 +50,12 @@
 	top: 20px;
 	left: 20px;
 	z-index: 200;
+
+	transition: var(--transition);
 }
 
 .button:hover {
-	color: var(--color-orange);
+	color: var(--color-primary-dark);
 }
 
 .icon {
@@ -80,6 +82,10 @@
 	font-size: 14px;
 	font-weight: 300;
 	color: var(--color-text-secondary);
+}
+
+.text {
+	font-size: 14px;
 }
 
 .nested_comment {
